@@ -9,7 +9,7 @@ class GeocodingServices {
             uri: 'https://maps.googleapis.com/maps/api/geocode/json',
             qs: {
                 address: req.body.city,
-                key: 'AIzaSyDt7XZWQWrYjmmzjYnx6eem1p3fkJT5KQM' // -> uri + '?access_token=xxxxx%20xxxxx'
+                key: process.env.MAPS_KEY // -> uri + '?access_token=xxxxx%20xxxxx'
             },
             headers: {
                 'User-Agent': 'Request-Promise'

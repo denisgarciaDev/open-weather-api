@@ -14,7 +14,7 @@ class OpenWeatherServices {
                 units: units,
                 lat: lat_lng.lat,
                 lon: lat_lng.lng,
-                appid: 'c36984756d657a0fe95c03b244e4cd20' // -> uri + '?access_token=xxxxx%20xxxxx'
+                appid: process.env.WEATHER_KEY // -> uri + '?access_token=xxxxx%20xxxxx'
             },
             headers: {
                 'User-Agent': 'Request-Promise'

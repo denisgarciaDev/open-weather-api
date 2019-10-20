@@ -62,3 +62,4 @@ typings/
 
 # Personal files
 package-lock.json
+src/utils/config.json
