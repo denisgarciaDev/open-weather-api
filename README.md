@@ -10,7 +10,13 @@ Install all packages
 $ npm install .
 ```
 
+## Config your credentials key
+
 create a file => **src/utils/config.json**
+
+To obtain the required credentials, go to:
+[Google maps Plataform](https://developers.google.com/maps/documentation/geocoding/start#get-a-key)
+[Open Weather Map](https://home.openweathermap.org/api_keys)
 
 ```json
 {
