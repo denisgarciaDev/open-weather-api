@@ -28,8 +28,8 @@ $ npm run dev
 
 | URL               |METHOD |BODY      |
 |-------------------|-------|----------|
-|/lat-long-from-city|`POST` |[B1](##B1)|
-|/weather-from-city |`POST` |[B2](##B2)|
+|/lat-long-from-city|`POST` |[B1](#B1)|
+|/weather-from-city |`POST` |[B2](#B2)|
 
 ## B1
 ```json
