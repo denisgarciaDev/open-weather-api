@@ -3,7 +3,7 @@
 This api aims to provide weather data from a city name.
 
 ## Install project
-After cloning the project, enter the created folder and execute the following commands.]
+After cloning the project, enter the created folder and execute the following commands.
 
 Install all packages
 ```shell
