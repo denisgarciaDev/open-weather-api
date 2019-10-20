@@ -15,8 +15,8 @@ $ npm install .
 create a file => **src/utils/config.json**
 
 To obtain the required credentials, go to:
-[Google maps Plataform](https://developers.google.com/maps/documentation/geocoding/start#get-a-key)
-[Open Weather Map](https://home.openweathermap.org/api_keys)
+[Google maps Plataform](https://developers.google.com/maps/documentation/geocoding/start#get-a-key) and 
+[Open Weather Map](https://home.openweathermap.org/api_keys).
 
 ```json
 {
