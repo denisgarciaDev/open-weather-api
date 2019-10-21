@@ -5,6 +5,8 @@ class GeocodingServices {
 
     getGeocode(req, res, next) {
 
+        res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
+
         const options = {
             uri: 'https://maps.googleapis.com/maps/api/geocode/json',
             qs: {

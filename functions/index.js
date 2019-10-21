@@ -1,4 +1,6 @@
+const functions = require('firebase-functions');
 const express = require('express');
+
 const cors = require('cors');
 
 const geocodingServices = require('./src/services/geocoding-services');
@@ -6,7 +8,6 @@ const weatherServices = require('./src/services/open-weather-services');
 const response = require('./src/utils/response');
 const config = require('./src/utils/config.json');
 
-const PORT = 3388;
 const app = express();
 
 process.env.MAPS_KEY = config.maps_key;
@@ -29,4 +30,4 @@ app.post('/weather-from-city',
     response.weather
 );
 
-app.listen(PORT);
+exports.app = functions.https.onRequest(app);

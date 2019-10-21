@@ -27,7 +27,11 @@ To obtain the required credentials, go to:
 
 Now, go ahead and run the fucking project!
 ```shell
-$ npm run dev
+$ firebase serve --only functions,hosting
+```
+## Deploy Firebase
+```shell
+$ firebase deploy
 ```
 
 ## Existing endpoints
